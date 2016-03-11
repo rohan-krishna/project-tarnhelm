@@ -14,7 +14,7 @@ app.use(morgan('combined'));
 
 // Configuration
 // ------------------------------------------------------------
-var db = require('./config/db');
+// var db = require('./config/db');
 
 // Set PORT
 // ------------------------------------------------------------
@@ -22,7 +22,7 @@ var port = process.env.PORT || 3333;
 
 // Connect to MongoDB Database
 // ------------------------------------------------------------
-mongoose.connect(db.url);
+// mongoose.connect(db.url);
 
 // BodyParser Configuration
 app.use(bodyParser.json());
