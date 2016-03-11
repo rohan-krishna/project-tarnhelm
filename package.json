@@ -1,0 +1,11 @@
+{
+	"name" : "project-tarnhelm",
+	"main" : "server.js",
+	"dependencies" : {
+		"express" : "*",
+		"mongoose" : "*",
+		"body-parser" : "*",
+		"method-override" : "*",
+		"morgan" : "*"
+	}
+}
